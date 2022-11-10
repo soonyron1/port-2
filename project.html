@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <link rel="stylesheet" href="custom.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/fontawesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #090909;
+    }
+
+    .dark-background-color {
+      background-color: #151515;
+    }
+
+    .overlay-project {
+      position: absolute;
+      background-color: rgba(10, 10, 10, 0.97);
+      width: 100%;
+      height: 100%;
+    }
+
+    .mywork {
+      background-color: #202020;
+    }
+
+    .project-background {
+      background-image: url(https://cdn.discordapp.com/attachments/740199309823442944/1035095253570572349/1920x1080.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+    }
+
+    .flexbox {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .word-project {
+      font-family: 'Charm', cursive;
+    }
+
+    .line {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .line:after,
+    .line::before {
+      content: '';
+      width: 15%;
+      height: 2px;
+      background-color: #c5a251;
+      margin: 0 10px;
+
+    }
+
+    .line2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #c5a251;
+    }
+
+    .line2:after,
+    .line2::before {
+      content: '';
+      width: 5%;
+      height: 2px;
+      background-color: #c5a251;
+      margin: 0 10px;
+
+    }
+
+    .Bai-jam {
+      font-family: 'Bai Jamjuree', sans-serif;
+    }
+
+    .charm {
+      font-family: 'Charm', cursive;
+    }
+
+    .play-card-3:hover {
+      transform: scale(1.1);
+    }
+
+    .play-card-3 {
+      transition: 0.5s;
+      z-index: 0;
+    }
+    .gold{
+    color: #a07510;
+    }
+    .background-2 {
+      background-image: url(https://cdn.discordapp.com/attachments/740199309823442944/1021607010703249428/fighting_medivalfantasy2k_b68e694d-7b50-465e-8104-d456125fdae6.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 750px;
+      position: relative;
+      z-index: 0;
+
+    }
+    
+  </style>
+</head>
+
+<body>
+  <section class="mywork">
+    <div class="project-background">
+      <div class="overlay-project">
+        <div class="navbar navbar-expand-sm navbar-dark dark-background-color">
+          <div class="container-fluid charm">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#my-nav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="my-nav" class="collapse navbar-collapse ">
+              <a class="navbar-brand" href="/index.html">
+                <img
+                  src="https://media.discordapp.net/attachments/740199309823442944/1019202281041838141/nigger-removebg-preview.png"
+                  width="85" height="85" alt="" class="ms-3"><span class="ms-5 ">Chalatphon kaew-on</span>
+              </a>
+              <ul class="navbar-nav ms-auto ">
+                <li class="nav-item pe-5 ">
+                  <a href="/index.html" class="nav-link h4">Home</a>
+                </li>
+                <li class="nav-item pe-5 ">
+                  <a href="/index.html#about" class="nav-link h5">About me</a>
+                </li>
+                <li class="nav-item pe-5">
+                  <a href="/index.html#introduce" class="nav-link h5">Introduce</a>
+                </li>
+                <li class="nav-item pe-5">
+                  <a href="certificate.html" class="nav-link h5">Certificate</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="text-center ">
+          <lord-icon src="https://cdn.lordicon.com/wiarcdne.json" trigger="loop" delay="6000"
+            colors="outline:#a07510,primary:#c5a251,secondary:#ffffff" style="width:150px;height:150px">
+          </lord-icon>
+          <h1 class="  word-project display-1 mt-2 gold line">Activity</h1>
+        </div>
+        <div class="project-space mt-3 ">
+          <!--display small-->
+          <div class="container d-sm-block d-md-none">
+            <div class="row Bai-jam">
+              <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5 ">
+                <div class="play-card-3">
+                  <img
+                    src="https://cdn.discordapp.com/attachments/740199309823442944/1027268242726735994/LINE_ALBUM___221006.jpg"
+                    class="w-100">
+                </div>
+                <h4 class="text-white text-center mt-3">ค่าย IT Camp18</h4>
+                <p class="text-white text-start">รายละเอียด I
+                  เป็นค่ายที่ให้ประสบการณ์และเปิดโลกITในรูปแบบที่ผมไม่สามารถประเมิณค่าได้.ผมได้พบเจอสังคมใหม่ๆและพบปะคนหลายประเภทจากทั่วทุกที่แลกเปลี่ยนความรู้และค้นพบสิ่งที่ตัวเองอยากจะทำ.
+                </p>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5">
+                <div class="play-card-3">
+                  <img
+                    src="https://swisplus.assumption.ac.th/lib/show_img.php?id=MTZ4NGo0OTRpNDc0ODRyNXE1bjVuNHA0djM5NG41cDVkNGY0NDRvMjU0eTJxMjU0eTIxMzY0NjQ3NHgyYjR5MjIzazNqNTAzczNyNDc0dDR1NGE0OTNxMnY0azNpM3QzazVyNWg0NTR2NTQ0cjVpNTkzNDQyNHEyNTR2MnMyYTR5MncyNjQ5NDQ0NDM1NDMzcTM0NDc0ejNmMzY0cTR2NGo1ZTNwMmkzMTViMw.."
+                    class="w-100 ">
+                </div>
+                <h4 class="text-white text-center mt-3">Assumption Open House2022</h4>
+                <p class="text-white text-start">รายละเอียด I
+                  ได้เข้าร่วมการออกบูทจำหน่ายสินค้าเพื่อฝึกทักษะการเป็นผู้ประกอบการในงานOpen
+                  houseของโรงเรียนสิ่งที่ได้รับมาจากงานนี้คือทักษะความอดทน,การขาย,การพูดโน้มน้าวใจ</p>
+              </div>
+            </div>
+          </div>
+         <!--display small-->
+          <!--display large-->
+          <div class="container-lg d-md-block d-sm-none d-none d-lg-block">
+            <div class="row Bai-jam">
+              <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5 ">
+                <div class="play-card-3">
+                  <img
+                    src="https://cdn.discordapp.com/attachments/740199309823442944/1030463410862825472/LINE_ALBUM___221006.jpg"
+                    class="w-100 img-lg">
+                </div>
+                <h4 class="text-white text-center mt-3">ค่ายIT Camp18</h4>
+                <p class="text-white text-start">รายละเอียด I
+                  เป็นค่ายที่ให้ประสบการณ์และเปิดโลกITในรูปแบบที่ผมไม่สามารถประเมิณค่าได้.ผมได้พบเจอสังคมใหม่ๆและพบปะคนหลายประเภทจากทั่วทุกที่แลกเปลี่ยนความรู้และค้นพบสิ่งที่ตัวเองอยากจะทำ.
+                </p>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5">
+                <div class="play-card-3">
+                  <img
+                    src="https://swisplus.assumption.ac.th/lib/show_img.php?id=MTZ4NGo0OTRpNDc0ODRyNXE1bjVuNHA0djM5NG41cDVkNGY0NDRvMjU0eTJxMjU0eTIxMzY0NjQ3NHgyYjR5MjIzazNqNTAzczNyNDc0dDR1NGE0OTNxMnY0azNpM3QzazVyNWg0NTR2NTQ0cjVpNTkzNDQyNHEyNTR2MnMyYTR5MncyNjQ5NDQ0NDM1NDMzcTM0NDc0ejNmMzY0cTR2NGo1ZTNwMmkzMTViMw.."
+                    class="w-100 ">
+                </div>
+                <h4 class="text-white text-center mt-3">Assumption Open House2022</h4>
+                <p class="text-white text-start">รายละเอียด I
+                  ได้เข้าร่วมการออกบูทจำหน่ายสินค้าเพื่อฝึกทักษะการเป็นผู้ประกอบการในงานOpen
+                  houseของโรงเรียนสิ่งที่ได้รับมาจากงานนี้คือทักษะความอดทน,การขาย,การพูดโน้มน้าวใจ</p>
+              </div>
+              <!--display large-->
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <lord-icon   src="https://cdn.lordicon.com/tdxlyuid.json"
+          trigger="loop" delay="6000"
+          colors="outline:#a07510,primary:#c5a251,secondary:#ffffff"
+          style="width:150px;height:150px">
+          </lord-icon>
+          <h1 class="  word-project display-1 mt-2 gold line">Project</h1>
+        </div>
+        <div class="container d-sm-block d-md-none">
+          <div class="row Bai-jam">
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5 ">
+              <div class="play-card-3">
+                <img
+                  src="https://cdn.discordapp.com/attachments/740199309823442944/1027280320287997992/Screenshot_2022-10-06_010451.png"
+                  class="w-100">
+              </div>
+              <h4 class="text-white text-center mt-3">Project IV</h4>
+              <p class="text-white text-start">รายละเอียด I เป็นโปรเจกต์แรกที่ผมทำโดยใช้HTML,CSS,Javascriptในการพัฒนาโดยเว็ปนี้ถูกสร้างมาเพื่อช่วยในการคำนวณและช่วยในการทำการบ้านวิชา
+              </p>
+              
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5">
+              <div class="play-card-3">
+                <img
+                  src="https://cdn.discordapp.com/attachments/740199309823442944/1030378582960250890/Screenshot_2022-10-14_135934.png"
+                  class="w-100 ">
+              </div>
+              <h4 class="text-white text-center mt-3">ME Coffee</h4>
+              <p class="text-white text-start">รายละเอียด I
+                เป็นโปรเจกต์ที่สองที่ผมได้ทำโดยใช้HTML,CSSและFramework อย่างbootstrapเป็นโปรเจกต์ที่ทำให้ผมเรียนรู้เรื่องของgridโดยโปรเจกต์นี้ทำมาเพื่อทดสอบตัวเองและส่งเพื่อรับใบเกียรติบัตร.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5">
+              <div class="play-card-3">
+                <img
+                  src="https://cdn.discordapp.com/attachments/740199309823442944/1030465293765582928/Screenshot_2022-10-14_195932.png"
+                  class="w-100 ">
+              </div>
+              <h4 class="text-white text-center mt-3">Katik</h4>
+              <p class="text-white text-start">รายละเอียด I
+                ผมได้ทำการสร้างเว็ปไซต์แบบ One pageเพื่อนำมาช่วยโปรโมทสินค้าและช่วยทำให้ผู้คนรู้จักกันโดยผม ใช้ Bootstrap,HTML5
+                Css3 ในการพัฒนาและสร้างหน้าเว็ป</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5">
+              <div class="play-card-3">
+                <img
+                  src="https://media.discordapp.net/attachments/740199309823442944/1030470461139714149/Screenshot_2022-10-14_202054.png?width=1750&height=905"
+                  class="w-100 ">
+              </div>
+              <h4 class="text-white text-center mt-3">My Portfolio</h4>
+              <p class="text-white text-start">รายละเอียด I
+                เป็นโปรเจกต์ที่สี่ที่ผมได้ทำโดยใช้ Bootstrap,HTML5 Css3 ในการพัฒนาและสร้างหน้าเว็ป เป็นอีกหนึ่งผลงานที่ผมภูมิใจและมีความสุขมากในระหว่างที่ทำ</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5">
+              <div class="play-card-3">
+                <img
+                  src="https://cdn.discordapp.com/attachments/740199309823442944/1030810794868363335/Untitled_design.png"
+                  class="w-100 ">
+              </div>
+              <h4 class="text-white text-center mt-3">Horror Random</h4>
+              <p class="text-white text-start">รายละเอียด I
+                HorrorRandom : เป็นเว็บไซต์ในรูปแบบของเกมที่สร้างมาเพื่อฝึกความจำโดยการใช้สีมา Random ไปเรื่อยๆและต้องตอบสีที่แสดงมาตามลำดับให้ถูกต้อง.
+ทำไมถึงสร้าง HorrorRandom ขึ้นมา : เพื่อต้องการฝึกการเขียนเว็บไซต์โดยใช้ Vue.js และทำให้อยู่ในรูปแบบของเกมเพื่อเพิ่มความน่าสนใจ.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5">
+              <div class="play-card-3">
+                <img
+                  src="https://media.discordapp.net/attachments/781181896678965268/1030567504264826910/20210219_153224.jpg?width=1724&height=890"
+                  class="w-100 ">
+              </div>
+              <h4 class="text-white text-center mt-3">Mouse For Feet</h4>
+              <p class="text-white text-start">รายละเอียด I
+                Mouse For Feet หรือชื่อในชื่อไทยคือเมาส์เท้าเป็นโครงงานที่มีวัตถุประสงค์ในการช่วยเหลือผู้ที่ใช้แขนไม่สะดวกหรือผู้พิการที่ไม่สามารถใช้เมาส์แบบปกติได้สะดวก.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container-lg d-md-block d-sm-none d-none d-lg-block">
+          <div class="row Bai-jam">
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5 ">
+              <div class="play-card-3">
+                <img
+                  src="https://cdn.discordapp.com/attachments/740199309823442944/1027280320287997992/Screenshot_2022-10-06_010451.png"
+                  class="w-100">
+              </div>
+              <h4 class="text-white text-center mt-3">Project IV</h4>
+              <p class="text-white text-start">รายละเอียด I เป็นโปรเจกต์แรกที่ผมทำโดยใช้HTML,CSS,Javascriptในการพัฒนาโดยเว็ปนี้ถูกสร้างมาเพื่อช่วยในการคำนวณและช่วยในการทำการบ้านวิชา
+              </p>
+              
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5">
+              <div class="play-card-3">
+                <img
+                  src="https://cdn.discordapp.com/attachments/740199309823442944/1030378582960250890/Screenshot_2022-10-14_135934.png"
+                  class="w-100 ">
+              </div>
+              <h4 class="text-white text-center mt-3">ME Coffee</h4>
+              <p class="text-white text-start">รายละเอียด I
+                เป็นโปรเจกต์ที่สองที่ผมได้ทำโดยใช้HTML,CSSและFramework อย่างbootstrapเป็นโปรเจกต์ที่ทำให้ผมเรียนรู้เรื่องของgridโดยโปรเจกต์นี้ทำมาเพื่อทดสอบตัวเองและส่งเพื่อรับใบเกียรติบัตร.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5">
+              <div class="play-card-3">
+                <img
+                  src="https://cdn.discordapp.com/attachments/740199309823442944/1030465293765582928/Screenshot_2022-10-14_195932.png"
+                  class="w-100 ">
+              </div>
+              <h4 class="text-white text-center mt-3">Katik</h4>
+              <p class="text-white text-start">รายละเอียด I
+                ผมได้ทำการสร้างเว็ปไซต์แบบ One pageเพื่อนำมาช่วยโปรโมทสินค้าและช่วยทำให้ผู้คนรู้จักกันโดยผม ใช้ Bootstrap,HTML5
+                Css3 ในการพัฒนาและสร้างหน้าเว็ป</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5">
+              <div class="play-card-3">
+                <img
+                  src="https://media.discordapp.net/attachments/740199309823442944/1030470461139714149/Screenshot_2022-10-14_202054.png?width=1750&height=905"
+                  class="w-100 ">
+              </div>
+              <h4 class="text-white text-center mt-3">My Portfolio</h4>
+              <p class="text-white text-start">รายละเอียด I
+                เป็นโปรเจกต์ที่สี่ที่ผมได้ทำโดยใช้ Bootstrap,HTML5 Css3 ในการพัฒนาและสร้างหน้าเว็ป เป็นอีกหนึ่งผลงานที่ผมภูมิใจและมีความสุขมากในระหว่างที่ทำ</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5">
+              <div class="play-card-3">
+                <img
+                  src="https://cdn.discordapp.com/attachments/740199309823442944/1030810794868363335/Untitled_design.png"
+                  class="w-100 ">
+              </div>
+              <h4 class="text-white text-center mt-3">Horror Random</h4>
+              <p class="text-white text-start">รายละเอียด I
+                HorrorRandom : เป็นเว็บไซต์ในรูปแบบของเกมที่สร้างมาเพื่อฝึกความจำโดยการใช้สีมา Random ไปเรื่อยๆและต้องตอบสีที่แสดงมาตามลำดับให้ถูกต้อง.
+ทำไมถึงสร้าง HorrorRandom ขึ้นมา : เพื่อต้องการฝึกการเขียนเว็บไซต์โดยใช้ Vue.js และทำให้อยู่ในรูปแบบของเกมเพื่อเพิ่มความน่าสนใจ.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-5">
+              <div class="play-card-3">
+                <img
+                  src="https://media.discordapp.net/attachments/781181896678965268/1030567504264826910/20210219_153224.jpg?width=1724&height=890"
+                  class="w-100 ">
+              </div>
+              <h4 class="text-white text-center mt-3">Mouse For Feet</h4>
+              <p class="text-white text-start">รายละเอียด I
+                Mouse For Feet หรือชื่อในชื่อไทยคือเมาส์เท้าเป็นโครงงานที่มีวัตถุประสงค์ในการช่วยเหลือผู้ที่ใช้แขนไม่สะดวกหรือผู้พิการที่ไม่สามารถใช้เมาส์แบบปกติได้สะดวก.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="mt-5">
+    <div class="background-2 ">
+      <div class="overlay-project"></div>
+    </div>
+  </section>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+</body>

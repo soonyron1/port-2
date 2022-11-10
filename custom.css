@@ -1,0 +1,344 @@
+:root{
+    --title: 1420px;
+    --gold:background-color:white
+}
+.gold{
+    color: #a07510;
+}
+.home{
+    position: relative;
+    background-image: url(https://media.discordapp.net/attachments/1008571152479826060/1018537397950095430/THE_BAB00BS_medieval_fantasycityday_lightfestival_5de2d06b-d5b1-4381-95e6-579f70529bdc.png?width=1609&height=905);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Charm', cursive;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.square-box1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.title{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    font-family: 'Charm', cursive;
+   
+    
+}
+.square-box2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.darkbg-lg{
+    background-color: #000000;
+    position: relative;
+    height: 1200px;
+    width: 100%;
+}
+.squarebox-3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://media.discordapp.net/attachments/997261020609384458/1018854264921145435/medieval_fantasymagicyoung_wizard2kadventure_2dea831d-b252-4c12-a2a2-27d7eb698f9c.png?width=960&height=540);
+    background-repeat: no-repeat;
+    background-size: 90%  100%;
+    background-position: center top 20px;
+}
+.squarebox4{
+    position: absolute;
+    background-color: rgba(12, 12, 12, 0.96);
+    width: 90%;
+    height: 100%;
+    background-position: center;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.myword{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #c5a251;
+}
+.word-head{
+    color: #a07510;
+    font-family: 'Charm', cursive;
+}
+.darkbg-2{
+    background-color: #000000;
+    position: relative;
+    height: 1800px;
+    width: 100%;
+}
+.myself{
+    background-color: #000000;
+    width: 100%;
+    height: 1400px;
+    
+    position: relative;
+}
+.title0{
+    width: 100%;
+    height: 325px;
+    position: relative;
+    font-family: 'Charm', cursive;
+    color: #c5a251;
+}
+.squarebox0{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.box-1{
+    background-image: url(https://media.discordapp.net/attachments/989268324884049960/1019307150587219978/medieval_fantasyhomeadventurerforest2k_355e4871-ef6b-472b-ad54-ae204ac7d6ff.png?width=1584&height=905);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 90%  100%;
+    background-position: center top 20px;
+}
+.squarebox5{
+    position: absolute;
+    background-color: rgba(12, 12, 12, 0.96);
+    width: 90%;
+    height: 100%;
+    background-position: center;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.image-1{
+    max-width: 500px;
+    min-width: 250px;
+    height: 500px;
+}
+.myselfjr{
+    background-color: #000000;
+    width: 100%;
+    height: 2100px;
+    position: relative;
+}
+.btn-1{
+    width:200px;
+    height:16px;
+    border:none;
+    background-color: #fefefe;
+    color: #fefefe;
+    transition: ease-out 0.7s;
+    outline: none;
+    border-radius: 2px;
+    margin-top: px;
+}
+.btn-1:hover{
+    box-shadow: inset 140px 0 0 0 rgb(94, 175, 241);
+    cursor: pointer;
+    color: #fefefe;
+}
+.btn-A{
+    width:200px;
+    height:16px;
+    border:none;
+    background-color: #fefefe;
+    color: #fefefe;
+    transition: ease-out 0.7s;
+    outline: none;
+    border-radius: 2px;
+}
+.btn-A:hover{
+    box-shadow: inset 170px 0 0 0 rgb(241, 94, 94);
+    cursor: pointer;
+    color: #fefefe;
+}
+.btn-B{
+    width:200px;
+    height:16px;
+    border:none;
+    background-color: #fefefe;
+    color: #fefefe;
+    transition: ease-out 0.7s;
+    outline: none;
+    border-radius: 2px;
+}
+.btn-B:hover{
+    box-shadow: inset 140px 0 0 0 rgb(94, 175, 241);
+    cursor: pointer;
+    color: #fefefe;
+}
+.btn-C{
+    width:200px;
+    height:16px;
+    border:none;
+    background-color: #fefefe;
+    color: #fefefe;
+    transition: ease-out 0.7s;
+    outline: none;
+    border-radius: 2px;
+}
+.btn-C:hover{
+    box-shadow: inset 110px 0 0 0 rgb(129, 252, 113);
+    cursor: pointer;
+    color: #fefefe;
+}
+.btn-D{
+    width:200px;
+    height:16px;
+    border:none;
+    background-color: #fefefe;
+    color: #fefefe;
+    transition: ease-out 0.7s;
+    outline: none;
+    border-radius: 2px;
+}
+.btn-D:hover{
+    box-shadow: inset 90px 0 0 0 rgb(252, 187, 113);
+    cursor: pointer;
+    color: #fefefe;
+}
+.word-intro{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.myselfmini{
+    background-color: #000000;
+    width: 100%;
+    height: 1800px;
+    position: relative;
+}
+.title2{
+    position: relative;
+    width: 100%;
+    height: 20%;
+}
+.coin-2{
+ height: 1480px;
+ width: 100%;
+ background-color: #000000;
+ position: relative;
+ font-family: 'Charm', cursive;
+}
+.real-height{
+    height: 900px;
+    width: 100%;
+    position: relative;
+}
+.darkbg-md{
+    background-color: #000000;
+    position: relative;
+    height: 1500px;
+    width: 100%;
+}
+.real-height-md{
+    height: 1200px;
+    width: 100%;
+    position: relative;
+}
+.darkbg-sm{
+    background-color: #000000;
+    position: relative;
+    height: 1600px;
+    width: 100%;
+}
+.real-height-sm{
+    height: 1500px;
+    width: 100%;
+    position: relative;
+}
+.word-caption{
+    color: #c5a251;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.real-height-coin-lg{
+    position: relative;
+    height: calc(var(--title) - 300px);
+    width: 100%;
+    background-image: url(https://media.discordapp.net/attachments/989268324884049960/1021035213008158760/great_hallceremonykingthrone2kadventurer_47dcb993-7f7c-4ea0-9e15-a4c7662c0a6c.png?width=1609&height=905);
+    background-repeat: no-repeat;
+    background-size: 90%  100%;
+    background-position: center top 20px;
+    
+}
+.background-coin{
+    position: absolute;
+    background-color: rgba(12, 12, 12, 0.95);
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+}
+.play-card{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.warhammer-community.com/wp-content/uploads/2017/06/BLWritingDarkImpArt2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 100px;
+    transition: 0.7s;
+}
+.hover-overlay{
+    position: absolute;
+
+    background-color: rgba(12, 12, 12, 0.3);
+    width: 100%;
+    height: 100%;
+}
+.play-card-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://pbs.twimg.com/media/FCP1apBVIAAi07-.jpg:large);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover  ;
+    margin-top: 100px;
+    transition: 0.7s;
+}
+.play-card:hover{
+    transform: scale(1.1);
+}
+.play-card-1:hover{
+    transform: scale(1.1);
+}
+.title1{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    font-family: 'Charm', cursive;
+    margin-bottom: 20px;
+}
+.ending{
+    background-color: #000000;
+    font-family: 'Bai Jamjuree', sans-serif;
+
+}
+.positionbox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.minibutton{
+    height: 65px;
+    width: 250px;
+    margin-bottom: 20px;
+    background-color: rgba(12, 12, 12, 0.7);
+    border-color: #a07510;
+}
+.coverbox{
+    position: relative;
+    width: 85%;
+    height: 400px;
+    margin: auto;
+}
+.Bai-jam{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
